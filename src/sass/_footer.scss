@@ -1,0 +1,31 @@
+.footer_section {
+    background-color: black;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding:10px;
+    border-top:2px solid $main_color;
+    
+    ul {
+        display: flex;
+        overflow: auto;
+        justify-content: center;
+        align-items: center;
+
+        li{
+            list-style: none;
+            margin-right: 30px;
+        }
+        a {
+            text-decoration: none;
+            color:white;
+            text-transform: capitalize;
+            
+            &:hover {
+                color:$main_color;
+                
+            }
+        }
+    }
+}

@@ -1,0 +1,52 @@
+.project_card {
+    background-color: white;
+    border-radius: 6px;
+    box-shadow: $box-shadow;
+    .image_container {
+
+        .iframe_image {
+            width: 100%;
+            object-fit: cover;
+            height: 250px;
+            border-top-right-radius: 6px;
+            border-top-left-radius: 6px;
+            border:none;
+        }
+
+    }
+    
+    
+
+    .card_content {
+        padding:20px;
+
+        .card_skilles {
+            margin:10px auto;
+            display: flex;
+            
+            h3{
+                color:$main_color;
+            }
+            h4{
+
+                
+            }
+            span {
+                margin-left: 5px;
+            }
+            
+        }
+
+        a{
+            text-decoration: none;
+            text-transform: capitalize;
+            background-color: $main_color;
+            padding:4px 20px;
+            color:white;
+            border-radius: 6px;
+            text-align: center;
+            
+        }
+    }
+}
+

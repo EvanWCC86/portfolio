@@ -1,0 +1,13 @@
+import React from 'react'
+import Skills from '../components/Skills'
+
+const SkillsPage = () => {
+    return (
+        <div className="skillsPage"> 
+           <Skills />
+           hi
+        </div>
+    )
+}
+
+export default SkillsPage

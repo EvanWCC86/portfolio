@@ -1,0 +1,127 @@
+// ******fade in******************
+
+.fadeInTop {
+    animation: fadeTop 1s ease 0s 1 normal forwards;
+}
+@keyframes fadeTop{
+    0% {
+      opacity: 0;
+      transform: translateY(-50px);
+    }
+  
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  .fadeInTop1 {
+    animation: fadeTop1 1s ease 1s 1 normal forwards;
+}
+@keyframes fadeTop1{
+    0% {
+      opacity: 0;
+      transform: translateY(-50px);
+    }
+  
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+//   *****************Slide In****************
+
+// entrance slideIn left
+.toLeft {
+  animation: leftSlideIn 1s ease 0s 1 normal forwards;
+}
+@keyframes leftSlideIn {
+  0% {
+    opacity: 0;
+    transform: translateX(-50px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+//   entrance slideIn right
+
+.toRight {
+  animation: rightSlideIn 1s ease 0s 1 normal forwards;
+}
+@keyframes rightSlideIn {
+  0% {
+    opacity: 0;
+    transform: translateX(250px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+//entrance slideIn bottom
+
+.toBottom {
+  animation: bottomSlideIn 1s ease 0s 1 normal forwards;
+}
+@keyframes bottomSlideIn {
+  0% {
+    opacity: 0;
+    transform: translateY(250px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.toTop {
+  animation: topSlideIn 1s ease 0s 1 normal forwards;
+}
+@keyframes topSlideIn {
+  0% {
+    opacity: 0;
+    transform: translateY(-250px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+// entrance scale in BCK Center
+
+.ScaleInCenter {
+  animation: scaleInCen 1s ease 0s 1 normal forwards;
+}
+@keyframes scaleInCen {
+  0% {
+    transform: scale(2);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
+// background
+.projectwebsite {
+  animation: websiteToBottom 5s ease 0s 1 normal forwards;
+}
+@keyframes websiteToBottom {
+  0% {
+    background-position: 50% 0%;
+  }
+
+  100% {
+    background-position: 50% 100%;
+  }
+}
