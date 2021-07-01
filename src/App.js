@@ -16,7 +16,7 @@ const App = () => {
    setShowSidebar(!showSidebar)
   }
   
-  console.log(showSidebar)
+  
  
   return (
     <Router>
