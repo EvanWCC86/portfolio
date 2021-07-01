@@ -55,6 +55,14 @@
             text-transform: uppercase;
             margin-left: 10px;
         }
+        .download{
+            background-color: transparent;
+            border:none;
+            outline: none;
+            a{
+                color:black;
+            }
+        }
     }
     footer{
         text-align: center;

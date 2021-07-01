@@ -20,7 +20,7 @@ const Sidebar = ({showSidebar, toggleSidebar}) => {
                         </li>
                    ))}
                     
-                    
+                    <button className="download"><a href="https://drive.google.com/file/d/1ubbrB_c6GhheOPE5qnPKyOAi5bOAjRnD/view?usp=sharing">Download CV</a></button>
                 </ul>
                 <footer>
                     <span><TiSocialFacebookCircular /></span>
