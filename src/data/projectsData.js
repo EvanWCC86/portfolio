@@ -17,6 +17,12 @@ export const projectsData = [
         websiteUrl:"https://news-demo.vercel.app",
         name: "News-demo",
         skilles:["NextJS, sass"]
+    },
+    {
+        id:"4",
+        websiteUrl:"https://evaneasyshop.netlify.app",
+        name: "full-stack e-commerce demo",
+        skilles:["Node js, Express, MongoDB, React, Redux, Sass"]
     }
     
 ]
