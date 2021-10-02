@@ -1,8 +1,8 @@
 import React from 'react'
 import ContactForm from '../components/ContactForm'
-import PhoneOutlinedIcon from '@material-ui/icons/PhoneOutlined';
-import EmailOutlinedIcon from '@material-ui/icons/EmailOutlined';
-import HomeOutlinedIcon from '@material-ui/icons/HomeOutlined';
+import PhoneIcon from '@mui/icons-material/Phone';
+import EmailIcon from '@mui/icons-material/Email';
+import HomeIcon from '@mui/icons-material/Home';
 
 const ContactPage = () => {
     return (
@@ -10,7 +10,7 @@ const ContactPage = () => {
             <div className="contact_container">
                 <div className="contact-info">
                     <div className="infoItem">
-                        <button><HomeOutlinedIcon /></button>
+                        <button><HomeIcon /></button>
                         <div>
                             <span>555 first st</span>
                             <span>Montreal,Quebec</span>
@@ -18,11 +18,11 @@ const ContactPage = () => {
                         </div>
                     </div>
                     <div className="infoItem">
-                        <button><PhoneOutlinedIcon /></button>
+                        <button><PhoneIcon /></button>
                         <span>514-555-5555</span>
                     </div>
                     <div className="infoItem">
-                        <button><EmailOutlinedIcon /></button>
+                        <button><EmailIcon /></button>
                         <span>realestate@gmail.com</span>
                     </div>
                 </div>
