@@ -16,13 +16,19 @@ export const projectsData = [
         id:"3",
         websiteUrl:"https://news-demo.vercel.app",
         name: "News-demo",
-        skilles:["NextJS, sass"]
+        skilles:["NextJS", "sass"]
     },
     {
         id:"4",
         websiteUrl:"https://evaneasyshop.netlify.app",
         name: "full-stack e-commerce demo",
-        skilles:["Node js, Express, MongoDB, React, Redux, Sass"]
+        skilles:["Node js", "Express", "MongoDB", "React", "Redux", "Sass"]
+    },
+    {
+        id:"5",
+        websiteUrl:"https://stupefied-lumiere-8937fa.netlify.app",
+        name:"full-stack real-estate demo",
+        skilles:["Node js", "Express", "MongoDB", "React", "Redux","Styled-Components","Heroku","Netlify"]
     }
     
 ]

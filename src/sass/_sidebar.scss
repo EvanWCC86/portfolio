@@ -31,6 +31,11 @@
         }
         svg {
             font-size: 1.3rem;
+            cursor: pointer;
+
+            &:hover {
+                color:red;
+            }
         }
     }
     ul {
@@ -54,6 +59,10 @@
             color:white;
             text-transform: uppercase;
             margin-left: 10px;
+
+            &:hover {
+                color:black;
+            }
         }
         .download{
             background-color: transparent;
@@ -61,6 +70,10 @@
             outline: none;
             a{
                 color:black;
+
+                &:hover{
+                    color:white;
+                }
             }
         }
     }

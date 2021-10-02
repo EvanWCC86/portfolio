@@ -18,6 +18,7 @@ const Skills = () => {
                <SkillRow title="javascript" percentage="65%" />
                <SkillRow title="react" percentage="75%" />
                <SkillRow title="redux" percentage="75%" />
+               <SkillRow title="typescript" percentage="60%" />
                
           </div>
           <div className="backend">
@@ -30,6 +31,7 @@ const Skills = () => {
           <div className="others">
                <SkillRow title="mongoDB" percentage="70%" />
                <SkillRow title="git" percentage="70%" />
+               <SkillRow title="graphQL" percentage="70%" />
                
           </div>
     </section>

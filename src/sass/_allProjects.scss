@@ -13,14 +13,14 @@
         display: grid;
         grid-template-columns: 1fr;
         grid-gap: 20px;
-
+        width:90%;
+        max-width: 1200px;
+        margin:auto;
         @media screen and (min-width: 680px) {
             grid-template-columns: 1fr 1fr;
-
+            
             
         }
-        @media screen and (min-width: 1000px) {
-            grid-template-columns: 1fr 1fr 1fr;
-        }
+        
     }
 }
