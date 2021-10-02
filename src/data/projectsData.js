@@ -26,7 +26,7 @@ export const projectsData = [
     },
     {
         id:"5",
-        websiteUrl:"https://stupefied-lumiere-8937fa.netlify.app",
+        websiteUrl:"https://real-estate-demodemo.netlify.app",
         name:"full-stack real-estate demo",
         skilles:["Node js", "Express", "MongoDB", "React", "Redux","Styled-Components","Heroku","Netlify"]
     }
