@@ -8,7 +8,7 @@ export const projectsData = [
     },
     {
         id:"2",
-        websiteUrl:"https://www.evanwebrecipes.com",
+        websiteUrl:"https://recipes-ready.netlify.app",
         name:"Recipes website",
         skilles:["React", "material-ui"]
     },

@@ -15,14 +15,14 @@ const ContactPage = () => {
                     <div className="infoItem">
                         <button><HomeOutlinedIcon /></button>
                         <div>
-                            <span>555 first st</span>
+                            <span>*** first st</span>
                             <span>Montreal,Quebec</span>
                             <span>Postal code</span>
                         </div>
                     </div>
                     <div className="infoItem">
                         <button><PhoneOutlinedIcon /></button>
-                        <span>514-555-5555</span>
+                        <span>514-555-****</span>
                     </div>
                     <div className="infoItem">
                         <button><EmailOutlinedIcon /></button>
